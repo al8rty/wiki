@@ -1,4 +1,4 @@
- services:
+services:
   MediaWiki:
     container_name: wiki
     image: mediawiki
