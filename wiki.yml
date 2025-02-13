@@ -12,7 +12,7 @@
       # - ./LocalSettings.php:/var/www/html/LocalSettings.php
   database:
     container_name: db
-    image: mysql
+    image: mariadb:latest
     environment:
       MYSQL_DATABASE: mediawiki
       MYSQL_USER: wiki
